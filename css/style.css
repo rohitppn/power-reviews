@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: linear-gradient(180deg, rgba(76, 0, 200, 1), rgba(0, 6, 54, 1));
+  width: 100%;
+  height: 100vh;
+
+}
+
+.container{
+  width: 25rem;
+  height: 35rem;
+  position: relative;
+  margin: 5rem auto;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.brand_logo{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: 2rem 2rem;
+  background-color: #3A098A;
+}
+
+.inner-circle{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: 1rem auto;
+  background-color: #fff;
+}
+
+.content{
+  width: 90%;
+  position: relative;
+  display: inline-block;
+}
+
+.content h2{
+  color: #3A098A;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+.content p{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.star{
+  font-size: 1.7rem;
+  gap: 1rem;
+  /* line-height: 1.2;letter-spacing: 0.327em;font-weight: 900;font-style: normal; */
+  margin: 1rem auto;
+}
+
+.star-one:hover{
+  font-size: 2.5rem;
+  overflow: hidden;
+}
+
+.btn{
+  width: 80%;
+  height: 3rem;
+  color: #fff;
+  font-size: 1.9rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+  background-color: #3A098A;
+  font-family: 'Road Rage', cursive;
+  font-weight: 200;
+  line-height: 1.1;
+  letter-spacing: 0.1em;
+}
+
+
+
+.btn:hover{
+  background-color: #4607ab;
+}
+
+
+
+
+/* mobile phone size   */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    margin: 30% auto;
+  }
+}
